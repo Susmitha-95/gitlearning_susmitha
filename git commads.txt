@@ -1,4 +1,4 @@
-HI 
+HI There! 
 Certainly! Here are some common Git commands with examples:
 
 1. **git init**
