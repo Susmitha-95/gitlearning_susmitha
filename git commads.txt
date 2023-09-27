@@ -1,0 +1,122 @@
+Certainly! Here are some common Git commands with examples:
+
+1. **git init**
+   - **Usage:** Initialize a new Git repository in the current directory.
+   - **Example:**
+     ```
+     git init
+     ```
+
+2. **git add**
+   - **Usage:** Stage changes for the next commit.
+   - **Example:**
+     ```
+     git add file.txt
+     ```
+
+3. **git commit**
+   - **Usage:** Create a new commit with staged changes.
+   - **Example:**
+     ```
+     git commit -m "Added new feature"
+     ```
+
+4. **git status**
+   - **Usage:** Display the current state of the repository (untracked files, staged changes, etc.).
+   - **Example:**
+     ```
+     git status
+     ```
+
+5. **git diff**
+   - **Usage:** Show the changes between the working directory and the staging area.
+   - **Example:**
+     ```
+     git diff
+     ```
+
+6. **git log**
+   - **Usage:** Display the commit history.
+   - **Example:**
+     ```
+     git log
+     ```
+
+7. **git branch**
+   - **Usage:** List, create, or delete branches.
+   - **Example:**
+     ```
+     git branch feature-branch
+     ```
+
+8. **git checkout**
+   - **Usage:** Switch between branches or restore files from a commit.
+   - **Example:**
+     ```
+     git checkout feature-branch
+     ```
+
+9. **git merge**
+   - **Usage:** Merge changes from one branch into another.
+   - **Example:**
+     ```
+     git merge feature-branch
+     ```
+
+10. **git pull**
+    - **Usage:** Fetch the latest changes from the remote repository and merge them into the current branch.
+    - **Example:**
+      ```
+      git pull origin main
+      ```
+
+11. **git push**
+    - **Usage:** Push local commits to a remote repository.
+    - **Example:**
+      ```
+      git push origin main
+      ```
+
+12. **git remote**
+    - **Usage:** Manage connections to remote repositories.
+    - **Example:**
+      ```
+      git remote add origin <repository_url>
+      ```
+
+13. **git clone**
+    - **Usage:** Create a local copy of a remote repository.
+    - **Example:**
+      ```
+      git clone <repository_url>
+      ```
+
+14. **git fetch**
+    - **Usage:** Download objects and refs from another repository.
+    - **Example:**
+      ```
+      git fetch origin
+      ```
+
+15. **git rebase**
+    - **Usage:** Integrate changes from one branch into another by moving or combining commits.
+    - **Example:**
+      ```
+      git rebase main
+      ```
+
+16. **git reset**
+    - **Usage:** Reset the current HEAD to a specified state (commit).
+    - **Example:**
+      ```
+      git reset HEAD~1
+      ```
+
+17. **git tag**
+    - **Usage:** Create, list, delete, or verify tags.
+    - **Example:**
+      ```
+      git tag -a v1.0 -m "Version 1.0"
+      ```
+
+These are some of the most commonly used Git commands along with examples. Remember to replace placeholders like `<repository_url>` and `<branch_name>` with actual values relevant to your repository.
