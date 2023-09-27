@@ -1,0 +1,7 @@
+	• Difference btw git fetch and git pull 
+		○ Git fetch will only provide you the  whether there are any changes made in the repo and the new commit ID of the commit
+			§ Git fetch
+		○ If you want to merge the change in the local repo then we need to use merge command 
+			§ Git merge origin/master
+		○ Git pull will fetch the changes on the remote repo and also merge the changes to the local repository 
+        Git pull origin master
